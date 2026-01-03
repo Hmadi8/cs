@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل غياب</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header>
+        <h2>نموذج عذر غياب</h2>
+    </header>
+
+    <div class="content">
+
+<form action="https://formsubmit.co/mhmad090609@gmail.com" method="POST">
+    <!-- أيقونة المستخدم -->
+    <svg width="140" height="190" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="8" r="4" stroke="black" stroke-width="2" />
+        <path d="M4 20c0-4 4-6 8-6s8 2 8 6" stroke="black" stroke-width="2" />
+    </svg>         
+
+    <!-- حقول الإدخال -->
+    <input type="text" name="name" placeholder="الاسم الكامل" required>
+    <textarea name="message" placeholder="اكتب سبب الغياب" required></textarea>
+
+    <!-- إعدادات الخدمة -->
+    <input type="hidden" name="_captcha" value="false"> <!-- لإيقاف اختبار الكابتشا -->
+    <input type="hidden" name="_next" value="https://mail.google.com"> <!-- الصفحة التالية -->
+    <input type="hidden" name="_subject" value="طلب غياب جديد!"> <!-- عنوان الرسالة الذي سيصلك -->
+
+    <button type="submit" class="cta-button">ارسل الطلب</button>
+</form>
+
+
+
+
+    </div>
+</body>
+
+</html>

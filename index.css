@@ -1,0 +1,55 @@
+    
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background: linear-gradient(120deg, red, black);
+
+        }
+        .content{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            direction: rtl;
+            width: 70%;
+            height: 80%;
+        }
+        form input{
+        font-size: larger;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        }
+         
+        form textarea{
+            padding:2px 30px;
+            font-size: large;
+            border-radius: 10px;
+        } 
+        form button {
+            padding:9px 60px;
+            color: red;
+            border-radius: 10px;
+            border: none;
+            font-size: large;
+        }
+
+        header{
+            text-align: center;
+            padding: 10px 0 ;
+            background: white;
+            color: red;
+        }
+
+
